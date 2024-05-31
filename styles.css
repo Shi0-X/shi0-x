@@ -1,19 +1,69 @@
-.news > article > h2 {
-  font-size: 60px;
-  color: red;
+/* General styles */
+body {
+  font-family: sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f4f4f9;
+  background-image: url(https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhTKqzQ75MwFA_EpartSGxjpnfRnnPlJAkzgHKTHXzFbtzi21RL-KvubxifY3wFqapw-63j6g79xDcS7q7_Hz0onNiqme560qqj3GKqAmeU2QZHwG6UQcH7oh0POkX0KJorsjUsP4CIIlXA/s1920/RMI+-+WarpLines+-+Blue+mirror.mp4_snapshot_00.04.431.jpg);
+  color: #333;
 }
 
-.news article h3 {
-  font-size: 80px;
-  color: green;
+/* Header section */
+header {
+  background-color: #4b4b4b; /* Dark gray background */
+  color: white; /* White text */
+  padding: 20px 0;
+  text-align: center;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
-.news article h1 {
-  font-size: 50px;
-  color: gray;
+header h1 {
+  margin: 0;
+  font-size: 2.5em;
+  font-weight: bold;
+  font: arial;
 }
 
-.news article p1 {
-  font-size: 50px;
-  color: gray;
+/* Main section */
+main {
+  padding: 20px;
+  max-width: 800px;
+  margin: 0 auto;
+  
 }
+
+/* Section styles */
+section {
+  background-color: white;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  margin-bottom: 20px;
+}
+
+/* Paragraph styles */
+p {
+  font-size: 1.2em;
+  line-height: 1.6;
+  text-align: justify;
+}
+
+/* Footer styles */
+footer {
+  font-size: 0.8em;
+  font-family: sans-serif;
+  color: #E8E8E8;
+  text-align: center;
+  background-color: #4b4b4b; /* Dark gray background */
+  padding: 10px 0;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
+
+/* Extra styles for a nice touch */
+h1 {
+  font-family: sans-serif;
+  color: #2c3e50;
+}
+
