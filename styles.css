@@ -46,6 +46,7 @@ p {
   font-size: 1.2em;
   line-height: 1.6;
   text-align: justify;
+  margin-top: 50px; /* Agregado para ajustar el espacio entre el párrafo y el encabezado */
 }
 
 /* Footer styles */
